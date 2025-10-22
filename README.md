@@ -31,7 +31,7 @@ Agora voce pode testar o Back-End e Front-End do Projeto Escola Mobile
 
 ## Wireframes e Diagramas
 
-![MerDER](./docs/MerDer.drawio.png)
+![MerDER](./docs/wireframes/der.png)
 
 ## Tela de login
 ![](./docs/wireframes/principal.png)

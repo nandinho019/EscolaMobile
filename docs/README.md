@@ -1,9 +1,9 @@
 ## Wireframes e Diagramas
 
-![MerDER](./MerDer.drawio.png)
+![MerDER](./wireframes/der.png)
 
-![](./wireframes/Captura%20de%20tela%202025-10-22%20093412.png)
-![](./wireframes/Captura%20de%20tela%202025-10-22%20093436.png)
-![](./wireframes/Captura%20de%20tela%202025-10-22%20093443.png)
-![](./wireframes/Captura%20de%20tela%202025-10-22%20093452.png)
-![](./wireframes/Captura%20de%20tela%202025-10-22%20093458.png)
+![](./wireframes/principal.png)
+![](./wireframes/erro.png)
+![](./wireframes/cadastro.png)
+![](./wireframes/Captura%20de%20tela%202025-10-22%20140758.png)
+![](./wireframes/excluir1.png)
