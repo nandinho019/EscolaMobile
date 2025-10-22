@@ -38,15 +38,15 @@ function Login() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center p-4" style={{ backgroundColor: '#e6f0ff' }}>
+    <main className="min-h-screen flex items-center justify-center p-4" style={{ backgroundColor: '#f5f5f5' }}>
       <form onSubmit={(e) => { e.preventDefault(); handleLogin(); }} className="w-full max-w-md">
-        <Card className="w-full border-blue-300 border-2 shadow-md">
+        <Card className="w-full border-gray-400 border-2 shadow-md bg-white dark:bg-black dark:border-gray-700 dark:text-white">
           <CardHeader className='text-center'>
-            <CardTitle className="text-blue-700">Bem vindo</CardTitle>
+            <CardTitle className="text-black dark:text-white">Bem vindo</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             {alertData && (
-              <Alert className="bg-blue-100 border-blue-300 text-blue-700">
+              <Alert className="bg-gray-200 border-gray-400 text-black dark:bg-gray-800 dark:border-gray-600 dark:text-white">
                 <AlertTitle>{alertData.title}</AlertTitle>
                 <AlertDescription>{alertData.message}</AlertDescription>
               </Alert>
@@ -56,7 +56,7 @@ function Login() {
               placeholder="Email"
               value={email}
               onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
-              className="w-full border-blue-300 focus:ring-2 focus:ring-blue-400"
+              className="w-full border-gray-400 focus:ring-2 focus:ring-gray-500 dark:bg-black dark:border-gray-600 dark:text-white"
               required
             />
             <Input
@@ -64,10 +64,13 @@ function Login() {
               placeholder="Senha"
               value={senha}
               onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSenha(e.target.value)}
-              className="w-full border-blue-300 focus:ring-2 focus:ring-blue-400"
+              className="w-full border-gray-400 focus:ring-2 focus:ring-gray-500 dark:bg-black dark:border-gray-600 dark:text-white"
               required
             />
-            <Button type="submit" className="w-full bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-300">
+            <Button
+              type="submit"
+              className="w-full bg-gray-800 text-white hover:bg-gray-700 transition-colors duration-300"
+            >
               Entrar
             </Button>
           </CardContent>

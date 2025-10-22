@@ -5,20 +5,33 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-400",
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        // Fundo preto, texto branco
+        default:
+          "bg-black text-white hover:bg-gray-900 border border-gray-800",
+
+        // Fundo branco, texto preto (estilo destrutivo invertido)
         destructive:
-          "bg-destructive text-white hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
+          "bg-white text-black border border-gray-300 hover:bg-gray-100",
+
+        // Borda preta, fundo branco
         outline:
-          "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
+          "border border-black bg-white text-black hover:bg-gray-100",
+
+        // Fundo cinza médio (secundário)
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+          "bg-gray-700 text-white hover:bg-gray-600 border border-gray-600",
+
+        // Botão fantasma (sem fundo, só hover)
         ghost:
-          "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
-        link: "text-primary underline-offset-4 hover:underline",
+          "bg-transparent text-black hover:bg-gray-200 dark:text-white dark:hover:bg-gray-800",
+
+        // Link simples preto e branco
+        link:
+          "text-black underline-offset-4 hover:underline dark:text-white",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",

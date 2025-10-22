@@ -33,11 +33,11 @@ Agora voce pode testar o Back-End e Front-End do Projeto Escola Mobile
 
 ![MerDER](./docs/MerDer.drawio.png)
 
-![](./docs/wireframes/Captura%20de%20tela%202025-10-22%20093412.png)
-![](./docs/wireframes/Captura%20de%20tela%202025-10-22%20093436.png)
-![](./docs/wireframes/Captura%20de%20tela%202025-10-22%20093443.png)
-![](./docs/wireframes/Captura%20de%20tela%202025-10-22%20093452.png)
-![](./docs/wireframes/Captura%20de%20tela%202025-10-22%20093458.png)
+![](./docs/wireframes/principal.png)
+![](./docs/wireframes/erro.png)
+![](./docs/wireframes/cadastro.png)
+![](./docs/wireframes/Captura%20de%20tela%202025-10-22%20140758.png)
+![](./docs/wireframes/excluir1.png)
 
 
 
