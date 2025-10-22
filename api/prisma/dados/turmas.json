@@ -1,14 +1,14 @@
 [
     {
-        "nome": "DS",
+        "nome": "Excel basico Sala 01",
         "professorId": 1
     },
     {
-        "nome": "Mecatronica Sala 01",
+        "nome": "Excel Avançado Sala 03",
         "professorId": 1
     },
     {
-        "nome": "Mecatronica Sala 02",
+        "nome": "Alinhamento Estratégico Aplicado à Gestão sala 05",
         "professorId": 1
     },
     {
@@ -28,7 +28,7 @@
         "professorId": 3
     },
     {
-        "nome": "Mecânico de Bombas Sala 01",
+        "nome": "Competência Transversal - Finanças Pessoais sala 05",
         "professorId": 3
     },
     {

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import axios from 'axios'
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 
-const uri = import.meta.env.VITE_API_URI || 'http://10.87.202.151:3000'
+const uri = import.meta.env.VITE_API_URI || 'http://10.87.202.165:3000'
 axios.defaults.baseURL = uri
 
 function Login() {

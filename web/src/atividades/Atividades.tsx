@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
 
-const uri = import.meta.env.VITE_API_URI || 'http://10.87.202.151:3000'
+const uri = import.meta.env.VITE_API_URI || 'http://10.87.202.165:3000'
 axios.defaults.baseURL = uri
 
 function Atividades() {
